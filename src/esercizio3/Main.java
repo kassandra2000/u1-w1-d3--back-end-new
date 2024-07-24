@@ -19,5 +19,9 @@ public class Main {
         Cart cart2 = new Cart(client1, client.addItem3(libro, tv, cuffie));
         Cart cart3 = new Cart(client2, client.addItem4(orologio, tablet, cuffie, telefono, libro));
 
+        cart.cartTotal();
+        cart2.cartTotal();
+        cart3.cartTotal();
+
     }
 }

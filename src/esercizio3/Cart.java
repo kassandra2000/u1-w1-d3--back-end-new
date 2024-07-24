@@ -11,7 +11,11 @@ public class Cart {
 
     //metodo
     public void cartTotal() {
-        System.out.println("");
+        double sum = 0;
+        for (Item item : itemsArr) {
+            sum += item.getPrice();
+        }
+        System.out.println("il totale del carrello di: " + client.getName() + " è di: " + sum);
     }
 
     // getter e setter
