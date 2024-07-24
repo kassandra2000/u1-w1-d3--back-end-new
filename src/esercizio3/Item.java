@@ -3,10 +3,10 @@ package esercizio3;
 import java.util.Random;
 
 public class Item {
-    private int code;
-    private String description;
-    private double price;
-    private int numbersInStock;
+    private final int code;
+    private final String description;
+    private final double price;
+    private final int numbersInStock;
 
     //costruttore
 
@@ -32,35 +32,35 @@ public class Item {
                 '}';
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+//    public int getCode() {
+//        return code;
+//    }
+//
+//    public void setCode(int code) {
+//        this.code = code;
+//    }
+//
+//    public String getDescription() {
+//        return description;
+//    }
+//
+//    public void setDescription(String description) {
+//        this.description = description;
+//    }
 
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public int getNumbersInStock() {
-        return numbersInStock;
-    }
-
-    public void setNumbersInStock(int numbersInStock) {
-        this.numbersInStock = numbersInStock;
-    }
+//    public void setPrice(double price) {
+//        this.price = price;
+//    }
+//
+//    public int getNumbersInStock() {
+//        return numbersInStock;
+//    }
+//
+//    public void setNumbersInStock(int numbersInStock) {
+//        this.numbersInStock = numbersInStock;
+//    }
 }

@@ -4,38 +4,19 @@ public class Main {
 
     public static void main(String[] args) {
         Call[] arr = new Call[5];
-        Sim sim = new Sim(3474116633L, arr);
+        Sim sim = new Sim(3447446633L, arr);
         System.out.println(sim.simData());
 
+//        Call call1 = new Call(23446756325L, 3.40);
 
-        addArr(arr);
-        addArr(arr);
-        addArr(arr);
-        addArr(arr);
-        addArr(arr);
+
+        sim.addCall(new Call(3465114433L, 1.20));
+        sim.addCall(new Call(3465114433L, 0.60));
+        sim.addCall(new Call(3465114433L, 0.60));
+
         sim.callLog();
 //        System.out.println(Arrays.toString(arr));
     }
 
-    public static void addArr(Call[] arr) {
-        if (arr[0] == null) {
-            Call call = new Call(3378495802L, 2.30);
-            arr[0] = call;
-        } else if (arr[1] == null) {
-            Call call = new Call(3895267838L, 0.30);
-            arr[1] = call;
-        } else if (arr[2] == null) {
-            Call call = new Call(3201235678L, 0.56);
-            arr[2] = call;
-        } else if (arr[3] == null) {
-            Call call = new Call(3087645432L, 4.30);
-            arr[3] = call;
-        } else {
-            Call call = new Call(3983568900L, 3.60);
-            arr[4] = call;
-        }
-
-
-    }
 
 }

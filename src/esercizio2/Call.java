@@ -2,7 +2,7 @@ package esercizio2;
 
 public class Call {
     private final long cellphoneNumber;
-    private double minute;
+    private final double minute;
 
     //costruttore
 
@@ -27,10 +27,7 @@ public class Call {
 
     public double getMinute() {
         return minute;
-    }
 
-    public void setMinute(int minute) {
-        this.minute = minute;
     }
 
 

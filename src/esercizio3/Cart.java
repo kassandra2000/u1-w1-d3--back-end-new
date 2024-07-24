@@ -1,8 +1,8 @@
 package esercizio3;
 
 public class Cart {
-    private Client client;
-    private Item[] itemsArr;
+    private final Client client;
+    private final Item[] itemsArr;
 
     public Cart(Client client, Item[] itemsArr) {
         this.client = client;
@@ -15,25 +15,25 @@ public class Cart {
         for (Item item : itemsArr) {
             sum += item.getPrice();
         }
-        System.out.println("il totale del carrello di: " + client.getName() + " è di: " + sum);
+        System.out.println("il totale del carrello di: " + client.getName() + " " + client.getSurname() + " è di: " + sum);
     }
 
     // getter e setter
 
-    public Client getClient() {
-        return client;
-    }
-
-    public void setClient(Client client) {
-        this.client = client;
-    }
-
-    public Item[] getItemsArr() {
-        return itemsArr;
-    }
-
-    public void setItemsArr(Item[] itemsArr) {
-        this.itemsArr = itemsArr;
-    }
+//    public Client getClient() {
+//        return client;
+//    }
+//
+//    public void setClient(Client client) {
+//        this.client = client;
+//    }
+//
+//    public Item[] getItemsArr() {
+//        return itemsArr;
+//    }
+//
+//    public void setItemsArr(Item[] itemsArr) {
+//        this.itemsArr = itemsArr;
+//    }
 }
 

@@ -54,35 +54,35 @@ public class Rectangle {
     }
     //getter e setter
 
-    public int getHeightInt() {
-        return heightInt;
-    }
-
-    public void setHeightInt(int heightInt) {
-        this.heightInt = heightInt;
-    }
-
-    public int getWidthInt() {
-        return widthInt;
-    }
-
-    public void setWidthInt(int widthInt) {
-        this.widthInt = widthInt;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public double getWidth() {
-        return width;
-    }
-
-    public void setWidth(double width) {
-        this.width = width;
-    }
+//    public int getHeightInt() {
+//        return heightInt;
+//    }
+//
+//    public void setHeightInt(int heightInt) {
+//        this.heightInt = heightInt;
+//    }
+//
+//    public int getWidthInt() {
+//        return widthInt;
+//    }
+//
+//    public void setWidthInt(int widthInt) {
+//        this.widthInt = widthInt;
+//    }
+//
+//    public double getHeight() {
+//        return height;
+//    }
+//
+//    public void setHeight(double height) {
+//        this.height = height;
+//    }
+//
+//    public double getWidth() {
+//        return width;
+//    }
+//
+//    public void setWidth(double width) {
+//        this.width = width;
+//    }
 }

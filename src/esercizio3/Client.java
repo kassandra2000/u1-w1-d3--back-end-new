@@ -61,16 +61,16 @@ public class Client {
         return surname;
     }
 
-    public int getCustomerCode() {
-        return customerCode;
-    }
-
-    public String getRegistrationDate() {
-        return registrationDate;
-    }
-
-    public String getEmail() {
-        return email;
-    }
+//    public int getCustomerCode() {
+//        return customerCode;
+//    }
+//
+//    public String getRegistrationDate() {
+//        return registrationDate;
+//    }
+//
+//    public String getEmail() {
+//        return email;
+//    }
 
 }
